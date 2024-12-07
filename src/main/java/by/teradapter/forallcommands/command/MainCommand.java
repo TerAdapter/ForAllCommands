@@ -45,7 +45,7 @@ public class MainCommand implements CommandExecutor, TabCompleter {
             Bukkit.dispatchCommand(Bukkit.getConsoleSender(), commandToExecute);
         }
 
-        sender.sendMessage(Config.Messages.done.replace("%command%", commandToExecute)); //commandToExecute
+        sender.sendMessage(Config.Messages.done.replace("%command%", commandToExecute));
         return true;
     }
 

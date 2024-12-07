@@ -13,7 +13,7 @@
 
     <description>Позволяет выполнить команду для всех онлайн игроков</description>
     <properties>
-    <java.version>1.8</java.version>
+    <java.version>16</java.version>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
 
@@ -68,5 +68,13 @@
           <version>1.16.5-R0.1-SNAPSHOT</version>
           <scope>provided</scope>
       </dependency>
+      <!-- https://mvnrepository.com/artifact/org.projectlombok/lombok -->
+      <dependency>
+          <groupId>org.projectlombok</groupId>
+          <artifactId>lombok</artifactId>
+          <version>1.18.36</version>
+          <scope>provided</scope>
+      </dependency>
+
   </dependencies>
 </project>

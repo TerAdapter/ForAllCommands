@@ -1,0 +1,17 @@
+name: ForAllCommands
+version: '1.0.0'
+main: by.teradapter.forallcommands.ForAllCommands
+api-version: '1.16'
+authors: [TerAdapter]
+description: Позволяет выполнить команду для всех онлайн игроков
+commands:
+  forall:
+    aliases:
+      - forallcommand
+      - globalcommand
+      - everyonecmd
+      - executeall
+      - fac
+permissions:
+  forallcommands.use:
+    default: op
